@@ -1,5 +1,7 @@
 # KitoSettings
 
+**[Documentation](https://wyksofts-inc.github.io/KitoSettings/documentation/kitosettings/)**
+
 Settings screens for SwiftUI. A settings list in four styles with typed rows and a search field
 that filters every row, a profile header and plan card, ready-made Appearance, Notifications,
 Privacy, Language, About and Delete account screens, and typed UserDefaults storage with
