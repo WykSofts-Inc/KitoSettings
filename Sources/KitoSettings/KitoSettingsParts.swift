@@ -141,7 +141,7 @@ struct KitoSettingsRowPressStyle: ButtonStyle {
 /// The chevron and grey value at the end of a navigation row.
 struct KitoSettingsChevron: View {
     var value: String?
-    var symbol = "chevron.right"
+    var symbol = "chevron.forward"
     @Environment(\.kitoTheme) private var theme
 
     var body: some View {

@@ -262,6 +262,7 @@ struct KitoFarewell: View {
                     .trim(from: 0, to: drawn ? 1 : 0)
                     .stroke(theme.colors.success.gradient, style: StrokeStyle(lineWidth: 6, lineCap: .round))
                     .rotationEffect(.degrees(-90))
+                    .flipsForRightToLeftLayoutDirection(true) // Circle doesn't mirror but rotation does; keeps the start at the top in RTL
                     .frame(width: 118, height: 118)
                 Image(systemName: "hand.wave.fill")
                     .font(.system(size: 50, weight: .semibold))

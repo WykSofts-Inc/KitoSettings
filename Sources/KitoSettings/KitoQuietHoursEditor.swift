@@ -136,6 +136,8 @@ public struct KitoQuietHoursDial: View {
                 center
             }
             .frame(width: side, height: side)
+            // A clock runs clockwise in every locale; keep the arc, labels and dot unmirrored.
+            .environment(\.layoutDirection, .leftToRight)
         }
         .aspectRatio(1, contentMode: .fit)
         .accessibilityElement(children: .ignore)
