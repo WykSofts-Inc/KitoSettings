@@ -103,7 +103,7 @@ public struct KitoPlanCard: View {
         Button(action: action) {
             HStack {
                 Text(title)
-                Image(systemName: "arrow.right")
+                Image(systemName: "arrow.forward")
             }
             .font(theme.settingsFont(.button))
             .foregroundStyle(resolvedTint)

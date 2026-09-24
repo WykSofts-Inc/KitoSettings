@@ -165,6 +165,13 @@ Every control has a VoiceOver label and value, steppers are adjustable, selectio
 Dynamic Type grows text and icons (rows stack at accessibility sizes) with the default Kito
 typography, and every animation respects Reduce Motion.
 
+## Right-to-left
+
+- Rows, sections, controls and the plan card mirror automatically in Arabic/Hebrew layouts (the sheen sweeps in reading direction).
+- Navigation-row chevrons and the plan card's button arrow use `chevron.forward` / `arrow.forward`, so they point the right way in RTL.
+- The sign-out icon (`rectangle.portrait.and.arrow.right`) and external-link arrows are left as Apple uses them.
+- The quiet-hours dial is a clock, so it stays clockwise with midnight at the top in every layout; the goodbye ring draws in from the top.
+
 ## Installation
 
 ```swift
